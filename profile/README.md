@@ -12,9 +12,9 @@ CAFAna provides tools for:
  * means for efficient fitting of histograms produced by the framework under neutrino oscillation or systematic uncertainty variations.
 
 The name originates from "Common Analysis Files" (or "Common Analysis Format" files; the oral history is conflicted)&mdash;CAFs&mdash;which remain the foundation of the approach, but the system has since been generalized beyond the NOvA format.
-Current applications include efforts on NOvA as well as users from the [DUNE](https://www.dunescience.org/) and [SBN](https://sbn.fnal.gov/) collaborations.
+Current applications include efforts on NOvA as well as users from the [DUNE collaboration](https://www.dunescience.org/) and the [Fermilab SBN program](https://sbn.fnal.gov/).
 
-More on the history, design, and possible future directions of CAFAna may be found [here](https://arxiv.org/abs/2203.13768).
+More on the history, design, and possible future directions of CAFAna may be found at [arXiv:2203.13768 [hep-ex]](https://arxiv.org/abs/2203.13768).
 
 
 ## Using CAFAna
@@ -32,6 +32,7 @@ The repositories underneath the CAFAna GitHub organization implement various com
 
 Regular users of CAFAna will likely want their input prepared in files with `StandardRecord` objects (or "flattened" ROOT trees that CAFAna's `FlatReader` can read).
 This will require a specialization of the workhorse `_Var` , `_Cut`, `_Weight`, and `Spectrum` types using a `StandardRecord` that fits their needs.
+As examples, see the implementations by [SBN](https://github.com/SBNSoftware/sbnana/tree/develop/sbnana/CAFAna).
 It would be nice to have a full technical digest of how to do this written up here, but in the meantime, please contact the CAFAna Code Librarian (@cafana/librarian) and we can discuss your use case.
 
 ## Contributing
