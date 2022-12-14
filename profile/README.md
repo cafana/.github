@@ -32,7 +32,7 @@ The repositories underneath the CAFAna GitHub organization implement various com
 
 Regular users of CAFAna will likely want their input prepared in files with `StandardRecord` objects (or "flattened" ROOT trees that CAFAna's `FlatReader` can read).
 This will require a specialization of the workhorse `_Var` , `_Cut`, `_Weight`, and `Spectrum` types using a `StandardRecord` that fits their needs.
-As examples, see the implementations by [SBN](https://github.com/SBNSoftware/sbnana/tree/develop/sbnana/CAFAna).
+As examples, see the implementations by [SBN](https://github.com/SBNSoftware/sbnana/tree/develop/sbnana/CAFAna) or [DUNE](https://github.com/DUNE/lblpwgtools/tree/master/CAFAna).
 It would be nice to have a full technical digest of how to do this written up here, but in the meantime, please contact the CAFAna Code Librarian (@cafana/librarian) and we can discuss your use case.
 
 ## Contributing
