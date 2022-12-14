@@ -40,7 +40,7 @@ It would be nice to have a full technical digest of how to do this written up he
 We welcome input with suggestions, bug reports, and (especially!) pull requests with proposed changes to the code base.
 
 Once a pull request is opened:
-* the CAFAna Stakeholders (representatives from the neutrino experiments who use CAFAna in analysis workflows) will discuss it in the `managing_cafana` cross-workspace Slack channel.
+* the CAFAna Stakeholders (representatives from the neutrino experiments who use CAFAna in analysis workflows) will discuss it in the `managing_cafana`/`cafana-admin` cross-workspace Slack channel.
 * Each Stakeholder experiment will be required to approve the pull request in GitHub.
 * Once all the required approvals are in place, the @cafana/librarian will merge the pull request.
 * The @cafana/librarian will also be responsible for setting the timetable for subsequent officially tagged releases of CAFAna (but of course a user is free to use the repository at any state they like).
